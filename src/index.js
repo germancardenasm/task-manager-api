@@ -9,7 +9,7 @@ const usersRouter = require('./routes/users');
 
 const PORT = process.env.PORT;
 const app = express();
-
+//open ports
 app.use(express.json());
 app.use(tasksRouter);
 app.use(usersRouter);
